@@ -5,10 +5,12 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-adminBackground: var(--adminBackground);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-textPrimary: var(--foreground);
   --color-description: var(--description);
+  --color-subtext: #4a4a4a;
   --font-montserrat: var(--font-Montserrat);
   --font-diablo: var(--font-diablo);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -56,9 +58,11 @@
 :root {
   --radius: 0.625rem;
   --background: #1E1E1E;
+  --adminBackground: #d9d9d9;
   --foreground: #F8EBD8;
   --primary: #C82128;
   --description: #737373;
+  --subtext:#4a4a4a;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.13 0.028 261.692);
   --popover: oklch(1 0 0);
